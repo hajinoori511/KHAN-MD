@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "KHAN-MD~z7RiBa7B#XF5-efdm7NeYpQJv51GfXtCvFFI9lPPspQrQ1YiM0zU",
+SESSION_ID: process.env.SESSION_ID || "KHAN-MD~GqgTECSJ#T_BklbMrDaEemPDBXbAcb-3yegCYWChQZk56j0Di_nw",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -21,11 +21,11 @@ BOT_NAME: process.env.BOT_NAME || "KHAN-MD",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "𓆩•.𓇚اوزبــོـیــ ؔـڪ𓇚.•𓆪     .       .            .          . . . . . . . . . . . . . . . . . . . . . . . . . . . .𓆰𓍼͢𝐍͢𝐱͢𝐱͢𝐫͢𝐢𓂃.ོ•𓆪",
 // type sticker pack name 
-CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
-DELETE_LINKS: process.env.DELETE_LINKS || "false",
+DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "92342758XXXX",
 // add your bot owner number
